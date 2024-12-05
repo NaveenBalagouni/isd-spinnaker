@@ -34,11 +34,11 @@ global:
 
   ## OES-UI url configuration
   oesUI:
-    host: oes.sai312.play.opsmx.org
+    host: oes.argotest.opsmx.net
 
   ## OES-Gate url configuration
   oesGate:
-    host: oes-gate.sai312.play.opsmx.org
+    host: oes-gate.argotest.opsmx.net
 
   gitea:
     enabled: true
