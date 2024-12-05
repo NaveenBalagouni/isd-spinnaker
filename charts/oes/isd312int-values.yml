@@ -7,7 +7,7 @@ global:
     enabled: false
     standardrepoBranch: 3.12
   oesUI:
-    host: isd-n.release.opsmx.org
+    host: isd-n.argotest.opsmx.net
     protocol: https
   ssl:
     enabled: true
