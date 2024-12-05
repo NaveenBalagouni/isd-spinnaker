@@ -39,12 +39,12 @@ global:
 
   # when this flag is set to false; UI will be accessible over http instead of https
   ssl:
-    enabled: false
+    enabled: true
 
   # If cert-manager is installed, TLS secrets will created automatically, as an 'Issuer' will be created
   # Else, the TLS secrets will need to created manually
   certManager:
-    installed: false
+    installed: true
 
   customCerts:
     enabled: false        # Set to true if your organization requires custom TLS certs
@@ -57,7 +57,7 @@ global:
     spinnakerKayanta: false
 
   ## Set to true to expose oes-ui, oes-gate services over ingress
-  createIngress: false
+  createIngress: true
 
   ## Node Selection rules for all the OES components (db, Autopilot, Sapor, Dashboard, Visibility, Audit, Datascience, Platform, Ui, Forwarder, Gate...) 
   nodeSelector: {}
