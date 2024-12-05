@@ -79,7 +79,7 @@ global:
   # Spinnaker Deck URL configuration; url overwhich spinnaker deck will be accessed
   spinDeck:
     protocol: https
-    host: spin.example.ops.com
+    host: spin.argotest.opsmx.net
     #port: 31464
 
     serviceAnnotations: {}
@@ -94,7 +94,7 @@ global:
   # Spinnaker Gate URL configuration; url overwhich spinnaker gate will be accessed
   spinGate:
     protocol: https
-    host: spin-gate.example.ops.com
+    host: spin-gate.argotest.opsmx.net
     #port: 31465
 
     serviceAnnotations: {}
