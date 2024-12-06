@@ -482,7 +482,7 @@ platform:
   ## Image specific details
   image:
     repository: ubi8-oes-platform
-    tag: v3.12.4
+    tag: isd-spin-2024.06.00-202409171119
     pullPolicy: IfNotPresent
 
   annotations:
@@ -544,7 +544,7 @@ sapor:
   ## Image specific details
   image:
     repository: ubi8-oes-sapor
-    tag: v3.12.4
+    tag: isd-spin-2024.06.00-202407191150
     pullPolicy: IfNotPresent
 
   annotations:
@@ -610,7 +610,7 @@ saporgate:
   enabled: true
   image:
     repository: ubi8-oes-spin-gate
-    tag: v3.12.0-saporgate
+    tag: isd-spin-2024.06.00-202408190706-sapor 
     pullPolicy: IfNotPresent
 
   annotations:
@@ -654,7 +654,7 @@ visibility:
   ## Image specific details
   image:
     repository: ubi8-oes-visibility
-    tag: v3.12.4
+    tag: isd-spin-2024.06.00-202407121318
     pullPolicy: IfNotPresent
 
   annotations:
