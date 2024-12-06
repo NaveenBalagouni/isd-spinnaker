@@ -636,7 +636,7 @@ ui:
   ## Image specific details
   image:
     repository: ubi8-oes-ui
-    tag: v3.12.4
+    tag: isd-spin-2024.06.00-202409171059
     pullPolicy: IfNotPresent
 
   annotations:
